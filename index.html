@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>서울삼육고등학교 스마트 캠퍼스</title>
@@ -258,3 +260,170 @@
         }
     </style>
 </head>
+<body>
+    <div class="logo-area">
+        <img src="school_logo.png" alt="학교 로고">
+        <span class="school-name" style="font-size:1em;">서울삼육고등학교</span>
+    </div>
+    <div class="header">
+        <div style="font-size:1.3em; font-weight:bold;">&nbsp;&nbsp;&nbsp;&nbsp;스마트 캠퍼스 포털</div>
+    </div>
+    <aside class="sidebar">
+        <nav>
+            <a href="#home" class="active"><span class="icon">🏠</span>홈</a>
+            <a href="#papers"><span class="icon">📚</span>논문 검색</a>
+            <a href="#lectures"><span class="icon">🎥</span>온라인 강의</a>
+            <a href="#rentals"><span class="icon">📝</span>학교 용품 대여</a>
+            <a href="#schedule"><span class="icon">📅</span>학사 일정</a>
+            <a href="#contact"><span class="icon">💬</span>문의/건의</a>
+        </nav>
+    </aside>
+    <main class="main">
+        <section id="home">
+            <div class="section-title">서울삼육고등학교 스마트 캠퍼스에 오신 것을 환영합니다!</div>
+            <div class="desc">
+                학교 생활에 필요한 다양한 서비스를 한 곳에서!<br>
+                논문 검색, 온라인 강의, 학교 용품 대여, 학사 일정 등<br>
+                학생과 교직원 모두를 위한 통합 플랫폼입니다.
+            </div>
+            <div class="card-list">
+                <div class="card">
+                    <div class="card-icon">📚</div>
+                    <div class="card-title">논문 검색</div>
+                    <div class="card-desc">국내외 논문을 쉽고 빠르게 검색하고, 사이트 내에서 바로 확인할 수 있습니다.</div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🎥</div>
+                    <div class="card-title">온라인 강의</div>
+                    <div class="card-desc">다양한 인강과 학교 자체 강의를 수강할 수 있습니다.</div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📝</div>
+                    <div class="card-title">학교 용품 대여</div>
+                    <div class="card-desc">노트북, 실험기구 등 학교 용품을 온라인으로 신청하고 대여 현황을 확인하세요.</div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📅</div>
+                    <div class="card-title">학사 일정</div>
+                    <div class="card-desc">학사 일정, 시험, 행사 등 주요 일정을 한눈에 확인할 수 있습니다.</div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💬</div>
+                    <div class="card-title">문의/건의</div>
+                    <div class="card-desc">학교에 궁금한 점이나 건의사항을 쉽고 빠르게 전달할 수 있습니다.</div>
+                </div>
+            </div>
+        </section>
+        <section id="papers" class="hidden">
+            <div class="section-title">논문 검색 및 열람</div>
+            <div class="desc">원하는 논문을 빠르게 찾아 열람하세요.</div>
+            <input type="text" class="search-bar" placeholder="논문 제목 또는 키워드를 입력하세요">
+            <div class="card-list">
+                <div class="card">
+                    <div class="card-icon">📄</div>
+                    <div class="card-title">논문 제목 1</div>
+                    <div class="card-desc">저자: 홍길동 | 발행일: 2025-01-01<br><button class="btn-available mt-2">열람하기</button></div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📄</div>
+                    <div class="card-title">논문 제목 2</div>
+                    <div class="card-desc">저자: 김영희 | 발행일: 2025-02-01<br><button class="btn-available mt-2">열람하기</button></div>
+                </div>
+            </div>
+        </section>
+        <section id="lectures" class="hidden">
+            <div class="section-title">온라인 강의</div>
+            <div class="desc">다양한 강의를 수강하여 지식을 넓히세요.</div>
+            <div class="card-list">
+                <div class="card">
+                    <div class="card-icon">🎥</div>
+                    <div class="card-title">컴퓨터 과학 입문</div>
+                    <div class="card-desc">강사: 이철수 | 기간: 2025-03-01 ~ 2025-06-01<br><button class="btn-available mt-2">수강하기</button></div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🎥</div>
+                    <div class="card-title">데이터 분석 기초</div>
+                    <div class="card-desc">강사: 박민수 | 기간: 2025-04-01 ~ 2025-07-01<br><button class="btn-available mt-2">수강하기</button></div>
+                </div>
+            </div>
+        </section>
+        <section id="rentals" class="hidden">
+            <div class="section-title">학교 용품 대여</div>
+            <div class="desc">필요한 용품을 쉽게 대여하세요.</div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>용품명</th>
+                        <th>상태</th>
+                        <th>대여 가능일</th>
+                        <th>액션</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>노트북</td>
+                        <td>대여 가능</td>
+                        <td>즉시</td>
+                        <td><button class="btn-available">대여하기</button></td>
+                    </tr>
+                    <tr>
+                        <td>프로젝터</td>
+                        <td>대여 중</td>
+                        <td>2025-08-10</td>
+                        <td><button class="btn-unavailable" disabled>대여하기</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="schedule" class="hidden">
+            <div class="section-title">학사 일정</div>
+            <div class="desc">중요한 학사 일정을 확인하세요.</div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>일정</th>
+                        <th>날짜</th>
+                        <th>설명</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>중간고사</td>
+                        <td>2025-10-15</td>
+                        <td>1학기 중간고사</td>
+                    </tr>
+                    <tr>
+                        <td>학교 축제</td>
+                        <td>2025-11-01</td>
+                        <td>학생 및 교직원 참여 행사</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact" class="hidden">
+            <div class="section-title">문의/건의</div>
+            <div class="desc">궁금한 점이나 건의사항을 남겨주세요.</div>
+            <div class="card">
+                <div class="card-icon">💬</div>
+                <div class="card-title">문의하기</div>
+                <div class="card-desc">
+                    <textarea class="search-bar" rows="4" placeholder="문의 또는 건의 내용을 입력하세요"></textarea>
+                    <button class="btn-available mt-2">제출하기</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        document.querySelectorAll('.sidebar a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.querySelectorAll('.main section').forEach(section => section.classList.add('hidden'));
+                const targetId = e.target.getAttribute('href').substring(1);
+                document.getElementById(targetId).classList.remove('hidden');
+                document.querySelectorAll('.sidebar a').forEach(a => a.classList.remove('active'));
+                e.target.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
